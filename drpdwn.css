@@ -1,0 +1,28 @@
+body{background-image: url('kfcimg.png');
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+    float: left;
+    width: 200px;
+    padding: 25px;
+    background-color: lightsalmon;
+    margin-left: 2px;
+}
+li.a:hover{
+    background-color: darkolivegreen;
+}
+li li{
+    display: none;
+}
+li:hover li{
+    display: block;
+    background-color: darkgoldenrod;
+    margin-left: -65px;
+    margin-top: 25px;
+    border-width:20px;
+}
